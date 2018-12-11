@@ -8,7 +8,7 @@ const AboutMe = () => {
         <p>I am a web developer.</p>
         <p>I graduated from CUNY Queens College with a bachelor's in English.</p>
         <p>I completed General Assembly's three-month web development course that year.</p>
-        <p>Currently, I am a contract worker for Techolution at J.Crew. I work on the front-end for the <a href='https://www.jcrew.com'>J.Crew</a> website.</p>
+        <p>Currently, I am an employee for Techolution at J.Crew. I work on the front-end for the <a href='https://www.jcrew.com'>J.Crew</a> website.</p>
       </div>
     </div>
   )
