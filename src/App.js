@@ -13,8 +13,8 @@ class App extends React.Component {
     return (
       <Router>
         <div className='App'>
-          <div>
-            <ul>
+          <div className='header-nav'>
+            <ul className='header-nav__wrapper'>
               {DATA.urls.map(url =>
                 <li key={url.name}>
                   <Link to={url.path}>{url.name}</Link>

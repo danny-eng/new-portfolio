@@ -5,3 +5,52 @@
 //  #9DDBAD <-- normal green
 //  #C3E8BD <-- light green
 */
+
+.header-nav {
+  background: #040403;
+  display: flex;
+  height: 44px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-nav__wrapper {
+  display: flex;
+  height: 40px;
+  width: 40%;
+  min-width: 400px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-nav__wrapper a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header-nav__wrapper a:hover {
+  color: #CCCCCC;
+}
+
+/* ---------------------------------------------------------- */
+
+.page__main {
+  margin: 5vh 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me__textbox {
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 1px solid #040403;
+  max-width: 1200px;
+  width: 1200px;
+}
+
+.about-me__textbox p {
+  padding: 6.5px 0;
+}
